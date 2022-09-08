@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 header nav h3 {
@@ -25,6 +25,10 @@ header nav ul li{
 header nav a{
     color:#000;
     text-decoration: none;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
 }
 
 nav{
@@ -67,6 +71,14 @@ main article{
 #breadcrumbs{
     padding: 0;
     margin: 0;
+}
+
+#breadcrumbs li::after{
+    content: ">";
+}
+
+#breadcrumbs li:last-child::after{
+    content: "";
 }
 
 #breadcrumbs li{

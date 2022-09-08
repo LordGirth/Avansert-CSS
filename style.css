@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+
 body{
-    background-color: aliceblue    
+    background-color: aliceblue   
+    font-family: 'PT Sans Narrow', sans-serif; 
 }
 header nav h3{
     float: left;
